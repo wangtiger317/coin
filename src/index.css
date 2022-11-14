@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "CircularBold";
+    font-weight: 700;
+    src: url("./CircularStd-Bold.woff2");
+  }
+
+  @font-face {
+    font-family: "Circular";
+    font-weight: 100;
+    src: url("./CircularStd-Book.woff2");
+  }
+}
+
+body {
+  background: rgb(44,45,48);
+  font-family: "CircularBold";
+}
+
+li {
+  background: #fff;
+}
+
+h2 {
+  font-family: "Circular";
+}
